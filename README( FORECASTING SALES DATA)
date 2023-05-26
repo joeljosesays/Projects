@@ -1,0 +1,19 @@
+OBJECTIVE
+The objective of this project is to build a forecasting system to predict demand of products for 3-months at different store locations based on the historical data.
+
+INTRODUCTION
+The dataset used is the item-sales at different stores from 2013 till 2017. The idea is to predict the sale of an item at a particular store for the next 3 – month using a reliable forecasting model.
+
+ACTIVITY
+Approached the problem with suitable reference materials provided as well as with the help of external resources available from the internet. Performed day-to-day activities and elaborated through daily activity report to complete the entire project.
+
+METHODOLOGY
+1) Framed the problem
+2) Collected the data
+3) Preprocessed the data
+4) Data analysis
+5) Compared two models ARIMA and SARIMA
+5) Selected SARIMA because of seasonal feature in the data.
+6) Optimized the model by hyperparameter tuning and selected the best tuned feature by comparing RSME value.
+7) Validated the residuals by comparing with FBPROPHET Forecasting Model.
+8) Predicted the sales for next 3 - months 
